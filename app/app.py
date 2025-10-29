@@ -6,6 +6,13 @@ import locale
 import platform 
 
 # --------------------------------------------------------
+# 🏠 Configuração da página principal
+# --------------------------------------------------------
+st.set_page_config(page_title='Restaurante Sabor & Arte', layout='wide')
+st.title('🍽️ Restaurante Sabor & Arte — Inteligência Comercial')
+
+
+# --------------------------------------------------------
 # 🌎 Configurar idioma e formatação PT-BR - CORRIGIDO
 # --------------------------------------------------------
 def configurar_locale_ptbr():
@@ -29,11 +36,6 @@ def configurar_locale_ptbr():
 # Aplicar configuração
 configurar_locale_ptbr()
 
-# --------------------------------------------------------
-# 🏠 Configuração da página principal
-# --------------------------------------------------------
-st.set_page_config(page_title='Restaurante Sabor & Arte', layout='wide')
-st.title('🍽️ Restaurante Sabor & Arte — Inteligência Comercial')
 
 # --------------------------------------------------------
 # 🔍 Carregar dados e aplicar filtros
