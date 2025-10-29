@@ -2,7 +2,7 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 from pathlib import Path
-from streamlit_date_picker import date_range_picker
+
 
 # ======================================================
 # 🔧 Funções auxiliares: carregar dados, filtros e KPIs
